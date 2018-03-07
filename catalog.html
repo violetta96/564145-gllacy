@@ -12,7 +12,24 @@
         </a>
         <ul class="site-nav">
           <li class="site-nav-current">
-            <a href="catalog.html">Каталог</a>
+            <a class="active" href="catalog.html">Каталог</a>
+            <ul class="site-subnav">
+              <li class="site-subnav-item">
+                <p>Новинки</p>
+              </li>
+              <li class="site-subnav-item">
+                <a class="active" href="catalog.html">Сливочное</a>
+              </li>
+              <li class="site-subnav-item">
+                <a href="#">Щербеты</a>
+              </li>
+              <li class="site-subnav-item">
+                <a href="#">Фруктовый лед</a>
+              </li>
+              <li class="site-subnav-item">
+                <a href="#">Мелорин</a>
+              </li>
+            </ul>
           </li>
           <li>
             <a href="info.html">Доставка и оплата</a>
@@ -22,9 +39,60 @@
           </li>
         </ul>
         <ul class="user-nav">
-          <li class="search">Поиск</li>
-          <li class="login">Вход</li>
-          <li class="cart">2 товара</li>
+          <li class="search">
+            <a href="#">Поиск</a>
+            <ul class="search-field">
+              <li>
+                <h2 class="visually-hidden">Поиск</h2>
+              </li>
+            </ul>
+          </li>
+          <li class="login">
+            <a href="#">Вход</a>
+            <ul class="login-form">
+              <li>
+                <h2 class="visually-hidden">Форма входа</h2>
+              </li>
+            </ul>
+          </li>
+          <li class="cart">
+            <a href="#">2 товара</a>
+            <ul>
+              <li>
+                <h2 class="visually-hidden">Карзина</h2>
+                <ul class="cart-list">
+                  <li class="cart-item">
+                    <span class="cart-cost-delete">x</span>
+                    <a href="#">
+                      <img class="cart-item-img" src="img/orange-small-item.jpg" width="33" height="33" alt="Пломбир с апельсиновым джемом">
+                      <p class="cart-item-title">Пломбир с апельсиновым джемом</p>
+                    </a>
+                    <p class="cart-item-cost">
+                      1,5 кг x
+                      <b>200 руб</b>
+                    </p>
+                    <p class="cart-item-price">300 руб</p>
+                  </li>
+                  <li class="cart-item">
+                    <span class="cart-cost-delete">x</span>
+                    <a href="#">
+                      <img class="cart-item-img" src="img/strawberry-small-item.jpg" width="33" height="33" alt="Клубничный пломбир с присыпкой из белого шоколада">
+                      <p class="cart-item-title">Клубничный пломбир с присыпкой из белого шоколада</p>
+                    </a>
+                    <p class="cart-item-cost">
+                      1,5 кг x
+                      <b>300 руб</b>
+                    </p>
+                    <p class="cart-item-price">450 руб</p>
+                  </li>
+                  <li class="cart-item">
+                    <p class="cart-cost">Итог: 750 руб.</p>
+                  </li>
+                </ul>
+                <a class="btn-cart-order" href="#">Оформить заказ</a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </nav>
     </header>
@@ -57,7 +125,7 @@
         <h2 class="visually-hidden">Виды сливочного мороженого</h2>
         <ul class="catalog-list">
           <li class="catalog-item">
-            <img src="http://placehold.it/150x100" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
+            <img src="img/orange-item.jpg" width="267" height="267" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
             <p class="catalog-item-price"><b>310₽</b>/кг</p>
             <p class="catalog-item-description">
               <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
@@ -65,7 +133,7 @@
             <a class="btn-item-hover" href="#">Быстрый просмотр</a>
           </li>
           <li class="catalog-item">
-            <img src="http://placehold.it/150x100" alt="Сливочно-кофейное с кусочками шоколада">
+            <img src="img/coffee-item.jpg" width="267" height="267" alt="Сливочно-кофейное с кусочками шоколада">
             <p class="catalog-item-price"><b>380₽</b>/кг</p>
             <p class="catalog-item-description">
               <a href="#">Сливочно-кофейное с кусочками шоколада</a>
@@ -73,7 +141,7 @@
             <a class="btn-item-hover" href="#">Быстрый просмотр</a>
           </li>
           <li class="catalog-item">
-            <img src="http://placehold.it/150x100" alt="Сливочно-клубничное с присыпкой из белого шоколада">
+            <img src="img/strawberry-item.jpg" width="267" height="267" alt="Сливочно-клубничное с присыпкой из белого шоколада">
             <p class="catalog-item-price"><b>355₽</b>/кг</p>
             <p class="catalog-item-description">
               <a href="#">Сливочно-клубничное с присыпкой из белого шоколада</a>
@@ -81,7 +149,7 @@
             <a class="btn-item-hover" href="#">Быстрый просмотр</a>
           </li>
           <li class="catalog-item">
-            <img src="http://placehold.it/150x100" alt="Сливочное крем-брюле с карамельной подливкой">
+            <img src="img/cream-brulee-item.jpg" width="267" height="267" alt="Сливочное крем-брюле с карамельной подливкой">
             <p class="catalog-item-price"><b>415₽</b>/кг</p>
             <p class="catalog-item-description">
               <a href="#">Сливочное крем-брюле с карамельной подливкой</a>
@@ -89,7 +157,7 @@
             <a class="btn-item-hover" href="#">Быстрый просмотр</a>
           </li>
           <li class="catalog-item">
-            <img src="http://placehold.it/150x100" alt="Сливочное с брусничным джемом">
+            <img src="img/cowberry-item.jpg" width="267" height="267" alt="Сливочное с брусничным джемом">
             <p class="catalog-item-price"><b>325₽</b>/кг</p>
             <p class="catalog-item-description">
               <a href="#">Сливочное с брусничным джемом</a>
@@ -97,7 +165,7 @@
             <a class="btn-item-hover" href="#">Быстрый просмотр</a>
           </li>
           <li class="catalog-item">
-            <img src="http://placehold.it/150x100" alt="Сливочно-черничное с цельными ягодами черники">
+            <img src="img/blueberry-item.jpg" width="267" height="267" alt="Сливочно-черничное с цельными ягодами черники">
             <p class="catalog-item-price"><b>410₽</b>/кг</p>
             <p class="catalog-item-description">
               <a href="#">Сливочно-черничное с цельными ягодами черники</a>
@@ -105,7 +173,7 @@
             <a class="btn-item-hover" href="#">Быстрый просмотр</a>
           </li>
           <li class="catalog-item">
-            <img src="http://placehold.it/150x100" alt="Сливочно-лимонное с карамельной присыпкой">
+            <img src="img/lemon-item.jpg" width="267" height="267" alt="Сливочно-лимонное с карамельной присыпкой">
             <p class="catalog-item-price"><b>375₽</b>/кг</p>
             <p class="catalog-item-description">
               <a href="#">Сливочно-лимонное с карамельной присыпкой</a>
@@ -113,7 +181,7 @@
             <a class="btn-item-hover" href="#">Быстрый просмотр</a>
           </li>
           <li class="catalog-item">
-            <img src="http://placehold.it/150x100" alt="Сливочное с шоколадной стружкой">
+            <img src="img/cream-item.jpg" width="267" height="267" alt="Сливочное с шоколадной стружкой">
             <p class="catalog-item-price"><b>320₽</b>/кг</p>
             <p class="catalog-item-description">
               <a href="#">Сливочное с шоколадной стружкой</a>
@@ -121,7 +189,7 @@
             <a class="btn-item-hover" href="#">Быстрый просмотр</a>
           </li>
           <li class="catalog-item">
-            <img src="http://placehold.it/150x100" alt="Сливочно-ванильное с кусочками шоколада">
+            <img src="img/vanilla-item.jpg" width="267" height="267" alt="Сливочно-ванильное с кусочками шоколада">
             <p class="catalog-item-price"><b>440₽</b>/кг</p>
             <p class="catalog-item-description">
               <a href="#">Сливочно-ванильное с кусочками шоколада</a>
@@ -129,7 +197,7 @@
             <a class="btn-item-hover" href="#">Быстрый просмотр</a>
           </li>
           <li class="catalog-item">
-            <img src="http://placehold.it/150x100" alt="Сливочное с ментоловым сиропом">
+            <img src="img/mint-item.jpg" width="267" height="267" alt="Сливочное с ментоловым сиропом">
             <p class="catalog-item-price"><b>435₽</b>/кг</p>
             <p class="catalog-item-description">
               <a href="#">Сливочное с ментоловым сиропом</a>
@@ -137,7 +205,7 @@
             <a class="btn-item-hover" href="#">Быстрый просмотр</a>
           </li>
           <li class="catalog-item">
-            <img src="http://placehold.it/150x100" alt="Сливочное с кусочками чёрного шоколада">
+            <img src="img/cream-chocolate-item.jpg" width="267" height="267" alt="Сливочное с кусочками чёрного шоколада">
             <p class="catalog-item-price"><b>355₽</b>/кг</p>
             <p class="catalog-item-description">
               <a href="#">Сливочное с кусочками чёрного шоколада</a>
@@ -145,7 +213,7 @@
             <a class="btn-item-hover" href="#">Быстрый просмотр</a>
           </li>
           <li class="catalog-item">
-            <img src="http://placehold.it/150x100" alt="Сливочное с мятным сиропом">
+            <img src="img/mint-green-item.jpg" width="267" height="267" alt="Сливочное с мятным сиропом">
             <p class="catalog-item-price"><b>420₽</b>/кг</p>
             <p class="catalog-item-description">
               <a href="#">Сливочное с мятным сиропом</a>
