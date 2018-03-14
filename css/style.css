@@ -117,7 +117,7 @@ body {
   color: #323232;
 }
 
-.cart-content td a {
+.cart-item a {
   color: #323232;
 }
 
@@ -155,7 +155,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.slider p {
+.slider .slider-title {
   font-size: 60px;
   line-height: 60px;
   font-weight: bold;
@@ -163,13 +163,13 @@ body {
 
 }
 
-.gift-banner p {
+.gift-banner-info {
   font-size: 18px;
   font-weight: bold;
   text-align: left;
 }
 
-.gift-banner h2 {
+.gift-banner-title {
   font-size: 35px;
   line-height: 41px;
   font-weight: bold;
@@ -203,7 +203,6 @@ body {
 
 .catalog-item a:active {
   color: #f6b5a5;
-
 }
 
 .catalog-item-price {
@@ -242,7 +241,7 @@ body {
   background-repeat: no-repeat;
  }
 
-.blog-post a{
+.blog-post a {
   font-size: 24px;
   font-weight: bold;
   color: #323232;
@@ -321,7 +320,7 @@ body {
   color: #f6b5a5;
 }
 
-.modal-feedback h2 {
+.modal-feedback-title {
   font-size: 24px;
   color: #323232;
   text-align: left;
@@ -352,11 +351,11 @@ body {
   color: #f6b5a5;
 }
 
-.filter fieldset {
+.filter .filter-sort {
   border: none;
 }
 
-.filter legend {
+.filter-title {
   font-size: 14px;
   line-height: 16px;
 }
