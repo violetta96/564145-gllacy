@@ -10,42 +10,42 @@
   <body>
     <header class="main-header">
       <nav class="main-nav">
-        <a class="main-header-logo">
-         <img src="img/logo.svg" alt="Логотип магазина «Глейси»">
-        </a>
+        <div class="main-header-logo">
+         <img src="img/logo.svg" width="154" height="64" alt="Логотип магазина «Глейси»">
+        </div>
         <ul class="site-nav">
           <li>
-            <a href="catalog.html">Каталог</a>
+            <a  class="site-nav-link" href="catalog.html">Каталог</a>
             <ul class="site-subnav">
               <li class="site-subnav-item">
-                <p>Новинки</p>
+                <p class="site-subnav-new">Новинки</p>
               </li>
               <li class="site-subnav-item">
-                <a href="catalog.html">Сливочное</a>
+                <a class="site-subnav-link" href="catalog.html">Сливочное</a>
               </li>
               <li class="site-subnav-item">
-                <a href="#">Щербеты</a>
+                <a class="site-subnav-link" href="#">Щербеты</a>
               </li>
               <li class="site-subnav-item">
-                <a href="#">Фруктовый лед</a>
+                <a class="site-subnav-link" href="#">Фруктовый лед</a>
               </li>
               <li class="site-subnav-item">
-                <a href="#">Мелорин</a>
+                <a class="site-subnav-link" href="#">Мелорин</a>
               </li>
             </ul>
           </li>
           <li>
-            <a href="info.html">Доставка и оплата</a>
+            <a class="site-nav-link" href="info.html">Доставка и оплата</a>
           </li>
           <li>
-            <a href="about.html">О Компании</a>
+            <a class="site-nav-link" href="about.html">О Компании</a>
           </li>
         </ul>
       </nav>
 
       <div class="user-nav">
         <div class="search">
-          <a href="#">Поиск</a>
+          <a class="user-nav-link" href="#">Поиск</a>
           <div class="search-field">
               <h2 class="visually-hidden">Поиск</h2>
               <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
@@ -55,7 +55,7 @@
           </div>
         </div>
         <div class="login">
-          <a href="#">Вход</a>
+          <a class="user-nav-link" href="#">Вход</a>
           <div class="login-field">
             <h2 class="visually-hidden">Форма входа</h2>
             <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
@@ -70,13 +70,13 @@
               <button class="btn" type="submit">Войти</button>
             </form>
             <p class="login-links">
-              <a class="login-form-forgot" href="#">Забыли пароль?</a>
-              <a class="login-form-registration" href="#">Новая регистрация</a>
+              <a class="login-form-link" href="#">Забыли пароль?</a>
+              <a class="login-form-link" href="#">Новая регистрация</a>
             </p>
           </div>
         </div>
           <div class="cart">
-            <a href="#">Пусто</a>
+            <a class="user-nav-link" href="#">Пусто</a>
           </div>
       </div>
     </header>
@@ -86,7 +86,7 @@
         <h2 class="visually-hidden">Информация для клиентов</h2>
         <p class="main-info">
           C 10 до 20 ежедневно<br>
-          <b>8 812 450-25-25</b>
+          <b class="main-info-tel">8 812 450-25-25</b>
         </p>
       </div>
 
@@ -126,34 +126,34 @@
         <h2 class="visually-hidden">Популярные виды мороженого</h2>
         <ul class="catalog-list">
           <li class="catalog-item">
-            <img src="img/orange-item.jpg" width="267" height="267" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
-            <p class="catalog-item-price"><b>310₽</b>/кг</p>
+            <img class="catalog-item-img" src="img/orange-item.jpg" width="267" height="267" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
+            <p class="catalog-item-price"><b class="catalog-item-cost">310₽</b>/кг</p>
             <p class="catalog-item-description">
-              <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+              <a class="catalog-item-link" href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
             </p>
             <a class="btn btn-item-hover" href="#">Быстрый просмотр</a>
           </li>
           <li class="catalog-item">
-            <img src="img/coffee-item.jpg" width="267" height="267" alt="Сливочно-кофейное с кусочками шоколада">
-            <p class="catalog-item-price"><b>380₽</b>/кг</p>
+            <img class="catalog-item-img" src="img/coffee-item.jpg" width="267" height="267" alt="Сливочно-кофейное с кусочками шоколада">
+            <p class="catalog-item-price"><b class="catalog-item-cost">380₽</b>/кг</p>
             <p class="catalog-item-description">
-              <a href="#">Сливочно-кофейное с кусочками шоколада</a>
+              <a class="catalog-item-link" href="#">Сливочно-кофейное с кусочками шоколада</a>
             </p>
             <a class="btn btn-item-hover" href="#">Быстрый просмотр</a>
           </li>
           <li class="catalog-item">
-            <img src="img/strawberry-item.jpg" width="267" height="267" alt="Сливочно-клубничное с присыпкой из белого шоколада">
-            <p class="catalog-item-price"><b>355₽</b>/кг</p>
+            <img class="catalog-item-img" src="img/strawberry-item.jpg" width="267" height="267" alt="Сливочно-клубничное с присыпкой из белого шоколада">
+            <p class="catalog-item-price"><b class="catalog-item-cost">355₽</b>/кг</p>
             <p class="catalog-item-description">
-              <a href="#">Сливочно-клубничное с присыпкой из белого шоколада</a>
+              <a class="catalog-item-link" href="#">Сливочно-клубничное с присыпкой из белого шоколада</a>
             </p>
             <a class="btn btn-item-hover" href="#">Быстрый просмотр</a>
           </li>
           <li class="catalog-item">
-            <img src="img/cream-brulee-item.jpg" width="267" height="267" alt="Сливочное крем-брюле с карамельной подливкой">
-            <p class="catalog-item-price"><b>415₽</b>/кг</p>
+            <img class="catalog-item-img" src="img/cream-brulee-item.jpg" width="267" height="267" alt="Сливочное крем-брюле с карамельной подливкой">
+            <p class="catalog-item-price"><b class="catalog-item-cost">415₽</b>/кг</p>
             <p class="catalog-item-description">
-              <a href="#">Сливочное крем-брюле с карамельной подливкой</a>
+              <a class="catalog-item-link" href="#">Сливочное крем-брюле с карамельной подливкой</a>
             </p>
             <a class="btn btn-item-hover" href="#">Быстрый просмотр</a>
           </li>
@@ -203,12 +203,12 @@
           <p>
               Адрес главного офиса<br>
               и офлайн магазина:<br>
-              <b>ул. Большая Конюшенная<br>
+              <b class="contacts-info-important">ул. Большая Конюшенная<br>
               19/8, Санкт-Петербург</b>
           </p>
           <p>
              Для заказов по телефону:<br>
-             <b>8 812 450-25-25</b><br>
+             <b class="contacts-info-important">8 812 450-25-25</b><br>
              (с 10 до 20 ежедневно)
           </p>
           <a class="btn contacts-btn" href="#">Форма обратной связи</a>
@@ -237,29 +237,29 @@
       <div class="footer-doc">
         <ul class="footer-doc-left">
           <li>
-            <a href="#">
+            <a class="footer-doc-link" href="#">
               <b>Для поставщиков</b>
             </a>
           </li>
           <li>
-            <a href="#">О производстве</a>
+            <a class="footer-doc-link" href="#">О производстве</a>
           </li>
         </ul>
         <ul class="footer-doc-right">
           <li>
-            <a href="#">Наши документы</a>
+            <a class="footer-doc-link" href="#">Наши документы</a>
           </li>
           <li>
-            <a href="#">Экологические стандарты</a>
+            <a class="footer-doc-link" href="#">Экологические стандарты</a>
           </li>
         </ul>
       </div>
 
       <div class="footer-copyright">
-        <a class="copyrite-logo" href="https://htmlacademy.ru">
-         <img src="img/logo-htmlacademy.svg" alt="HTML Academy">
-        </a>
-        <p>Сделано в <a href="https://htmlacademy.ru">HTML Academy</a> © 2017</p>
+        <div class="copyrite-logo">
+         <img src="img/logo-htmlacademy.svg" width="108" height="39" alt="HTML Academy">
+        </div>
+        <p>Сделано в <a class="footer-copyright-link" href="https://htmlacademy.ru">HTML Academy</a> © 2017</p>
       </div>
     </footer>
 

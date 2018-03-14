@@ -42,16 +42,16 @@ body {
   list-style: none;
 }
 
-.site-nav a,
-.user-nav a {
+.site-nav-link,
+.user-nav-link {
   color: #ffffff;
 }
 
-.site-nav a {
+.site-nav-link {
   font-weight: bold;
 }
 
-.user-nav a {
+.user-nav-link {
   font-size: 14px;
   text-decoration: none;
 }
@@ -60,8 +60,8 @@ body {
   list-style: none;
 }
 
-.site-subnav-item a,
-.site-subnav-item p {
+.site-subnav-link,
+.site-subnav-new {
   font-size: 14px;
   color: #323232;
   text-decoration: none;
@@ -70,17 +70,17 @@ body {
   background-color: #f8f7f4;
 }
 
-.site-nav a:hover,
-.site-nav a:focus,
-.user-nav a:hover,
-.user-nav a:focus {
+.site-nav-link:hover,
+.site-nav-link:focus,
+.user-nav-link:hover,
+.user-nav-link:focus {
   color: #323232;
   text-decoration: none;
 
   background-color: #f8f7f4;
 }
 
-.site-nav a:active {
+.site-nav-link:active {
   background-color: #ededed;
 }
 
@@ -90,11 +90,11 @@ body {
   background-color: #d07058;
 }
 
-.site-subnav a:hover {
+.site-subnav-link:hover {
   background-color: #fbded7;
 }
 
-.site-subnav a:active {
+.site-subnav-link:active {
   background-color: #f6b5a5;
 
 }
@@ -106,7 +106,7 @@ body {
   background-color: #f8f7f4;
 }
 
-.login-links a {
+.login-form-link {
   font-size: 13px;
   color: #323232;
   text-decoration: underline;
@@ -117,11 +117,11 @@ body {
   color: #323232;
 }
 
-.cart-item a {
+.cart-item {
   color: #323232;
 }
 
-.cart-content-table b {
+.cart-cost {
   font-weight: normal;
   color: #a6a6a5;
 }
@@ -136,7 +136,7 @@ body {
   font-weight: bold;
 }
 
-.main-info b{
+.main-info-tel{
   font-size: 22px;
 }
 
@@ -155,7 +155,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.slider .slider-title {
+.slider-title {
   font-size: 60px;
   line-height: 60px;
   font-weight: bold;
@@ -193,15 +193,15 @@ body {
 .catalog-item:hover {
 }
 
-.catalog-item a {
+.catalog-item-link {
   color: #ffffff;
 }
 
-.catalog-item a:hover {
+.catalog-item-link:hover {
   color: #f6b5a5;
 }
 
-.catalog-item a:active {
+.catalog-item-link:active {
   color: #f6b5a5;
 }
 
@@ -211,11 +211,11 @@ body {
   text-align: left;
 }
 
-.catalog-item-price b{
+.catalog-item-cost{
    font-size: 45px;
 }
 
-.catalog-item img {
+.catalog-item-img {
   border-radius: 50%;
 }
 
@@ -241,17 +241,17 @@ body {
   background-repeat: no-repeat;
  }
 
-.blog-post a {
+.blog-post-link {
   font-size: 24px;
   font-weight: bold;
   color: #323232;
 }
 
-.blog-post a:hover {
+.blog-post-link:hover {
   color: #d07058;
 }
 
-.blog-post a:active {
+.blog-post-link:active {
   color: #d07058;
 }
 
@@ -276,7 +276,7 @@ body {
   background-color: #ffffff;
 }
 
-.contacts-info b {
+.contacts-info-important {
   font-size: 18px;
   line-height: 24px;
   font-weight: bold;
@@ -291,16 +291,16 @@ body {
   list-style: none;
 }
 
-.footer-doc a {
+.footer-doc-link {
   font-size: 13px;
   color: #ffffff;
 }
 
-.footer-doc a:hover {
+.footer-doc-link:hover {
   color: #f6b5a5;
 }
 
-.footer-doc a:active {
+.footer-doc-link:active {
   color: #f6b5a5;
 }
 
@@ -308,15 +308,15 @@ body {
   font-size: 12px;
 }
 
-.footer-copyright a {
+.footer-copyright-link {
   color: #ffffff;
 }
 
-.footer-copyright a:hover {
+.footer-copyright-link:hover {
   color: #f6b5a5;
 }
 
-.footer-copyright a:active {
+.footer-copyright-link:active {
   color: #f6b5a5;
 }
 
@@ -337,21 +337,24 @@ body {
   text-align: left;
 }
 
-.breadcrumbs a,
+.breadcrumbs-link,
 .breadcrumbs-current {
   font-size: 14px;
   color: #ffffff;
 }
 
-.breadcrumbs a:hover {
+.breadcrumbs-link:hover {
   color: #f6b5a5;
 }
 
-.breadcrumbs a:active {
+.breadcrumbs-link:active {
   color: #f6b5a5;
 }
 
-.filter .filter-sort {
+.filter-sort,
+.filter-price,
+.filters-fat,
+.filter-fillers {
   border: none;
 }
 
@@ -385,17 +388,17 @@ body {
   background-color: rgba(255,255,255,0.2);
 }
 
-.pagination-item a {
+.pagination-item-link {
   color: #ffffff;
   text-decoration: none;
 }
 
-.pagination-item-current a {
+.pagination-item-current-link {
   color: #323232;
 
   background-color: #ffffff;
 }
 
-.pagination-item a:hover {
+.pagination-item-link:hover {
   background-color: rgba(255,255,255,0.2);
 }
