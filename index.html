@@ -10,12 +10,12 @@
   <body>
     <header class="main-header">
       <nav class="main-nav">
-        <div class="main-header-logo">
-         <img src="img/logo.svg" width="154" height="64" alt="Логотип магазина «Глейси»">
-        </div>
+        <a class="main-header-logo" href="#">
+          <img src="img/logo.svg" width="154" height="64" alt="Логотип магазина «Глейси»">
+        </a>
         <ul class="site-nav">
           <li>
-            <a  class="site-nav-link" href="catalog.html">Каталог</a>
+            <a class="site-nav-link" href="catalog.html">Каталог</a>
             <ul class="site-subnav">
               <li class="site-subnav-item">
                 <p class="site-subnav-new">Новинки</p>
@@ -257,7 +257,7 @@
 
       <div class="footer-copyright">
         <div class="copyrite-logo">
-         <img src="img/logo-htmlacademy.svg" width="108" height="39" alt="HTML Academy">
+          <img src="img/logo-htmlacademy.svg" width="108" height="39" alt="HTML Academy">
         </div>
         <p>Сделано в <a class="footer-copyright-link" href="https://htmlacademy.ru">HTML Academy</a> © 2017</p>
       </div>
@@ -268,11 +268,11 @@
       <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
         <p>
           <label for="feedback-name" class="visually-hidden">Как вас зовут?</label>
-          <input id="feedback-name" type="text" name="name" value="" placeholder="Как вас зовут?" required>
+          <input id="feedback-name" class="feedback-text" type="text" name="name" value="" placeholder="Как вас зовут?" required>
         </p>
         <p>
           <label for="feedback-email" class="visually-hidden">Ваша почта для ответа?</label>
-          <input id="feedback-email" type="email" name="email" value="" placeholder="Ваша почта для ответа?" required>
+          <input id="feedback-email" class="feedback-text" type="email" name="email" value="" placeholder="Ваша почта для ответа?" required>
         </p>
         <p>
           <label for="feedback-comment" class="visually-hidden">Напишите что-нибуть...</label>
