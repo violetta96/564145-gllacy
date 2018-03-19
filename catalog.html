@@ -11,7 +11,7 @@
   <body>
     <div class="container">
       <header class="main-header">
-        <a class="main-header-logo" href="#">
+        <a class="main-header-logo" href="index.html">
           <img src="img/logo.svg" width="154" height="64" alt="Логотип магазина «Глейси»">
         </a>
         <div class="nav-wrapper">
@@ -87,38 +87,38 @@
               <table class="cart-content-table">
                 <caption class="visually-hidden">Карзина</caption>
                 <tr>
-                  <td class="cart-content-delete">
+                  <td class="cart-content-info cart-content-delete">
                     <button class="cart-item-delete" type="button" aria-label="Удалить"></button>
                   </td>
-                  <td class="cart-content-img">
+                  <td class="cart-content-info cart-content-img">
                     <img class="cart-item-img" src="img/orange-small-item.jpg" width="33" height="33" alt="Пломбир с апельсиновым джемом">
                   </td>
-                  <td class="cart-content-item">
+                  <td class="cart-content-info cart-content-item">
                     <a class="cart-item" href="#">Пломбир с апельсиновым джемом</a>
                   </td>
-                  <td class="cart-content-item">
+                  <td class="cart-content-info cart-content-cost">
                     1,5 кг
                     <b class="cart-cost">
                       x 200 руб</b>
                   </td>
-                  <td class="cart-content-item">300 руб</td>
+                  <td class="cart-content-info cart-content-price">300 руб</td>
                 </tr>
                 <tr>
-                  <td class="cart-content-delete">
+                  <td class="cart-content-info cart-content-delete">
                     <button class="cart-item-delete" type="button" aria-label="Удалить"></button>
                   </td>
-                  <td class="cart-content-img">
+                  <td class="cart-content-info cart-content-img">
                     <img class="cart-item-img" src="img/strawberry-small-item.jpg" width="33" height="33" alt="Клубничный пломбир с присыпкой из белого шоколада">
                   </td>
-                  <td class="cart-content-item">
+                  <td class="cart-content-info cart-content-item">
                     <a class="cart-item" href="#">Клубничный пломбир с присыпкой из белого шоколада</a>
                   </td>
-                  <td class="cart-content-item">
+                  <td class="cart-content-info cart-content-cost">
                     1,5 кг
                     <b class="cart-cost">
                       x 300 руб</b>
                   </td>
-                  <td class="cart-content-item">450 руб</td>
+                  <td class="cart-content-info cart-content-price">450 руб</td>
                 </tr>
               </table>
               <div class="cart-price-wrapper">
@@ -139,11 +139,9 @@
           <li>
             <a class="breadcrumbs-link" href="index.html">Главная</a>
           </li>
-          <li>»</li>
           <li>
             <a class="breadcrumbs-link" href="#">Каталог</a>
           </li>
-          <li>»</li>
           <li class="breadcrumbs-current">Сливочное</li>
         </ul>
 
@@ -231,7 +229,9 @@
                 </li>
               </ul>
             </fieldset>
-            <button class="btn-filter" type="submit">Применить</button>
+            <div class="btn-filter-wrapper">
+              <button class="btn-filter" type="submit">Применить</button>
+            </div>
           </div>
         </form>
       </section>

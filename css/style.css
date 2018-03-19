@@ -47,23 +47,24 @@ body {
 }
 
 .main-header-logo {
+  margin-top: 9px;
   width: 154px;
   height: 64px;
-}
-
-.main-header-logo:active {
-  border: none;
 }
 
 .nav-wrapper {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
+  margin-top: 23px;
+  margin-left: 10px;
+  margin-bottom: 27px;
 }
 
 .site-nav,
 .user-nav  {
+  display: flex;
   margin: 0;
   padding: 0;
 
@@ -71,7 +72,7 @@ body {
 }
 
 .site-nav {
-  width: 695px;
+  width: 689px;
 }
 
 .user-nav {
@@ -200,19 +201,36 @@ body {
 }
 
 .cart-content-table {
+  border-collapse: collapse;
   border-bottom: 1px solid #cacac7;
 }
 
-.cart-content-item {
-  padding-top: 10px;
-  padding-bottom: 19px;
+.cart-content-info {
+  padding-bottom: 20px;
+  vertical-align: top;
+}
+
+.cart-item-delete {
+  display: none;
 }
 
 .cart-content-img {
+  width: 33px;
+
+  padding-left: 26px;
+}
+
+.cart-content-item {
+  width: 250px;
+
+  padding-right: 10px;
   padding-left: 10px;
+  padding-top: 10px;
+  line-height: 16px;
 }
 
 .cart-item {
+  text-decoration: none;
   color: #323232;
 }
 
@@ -221,10 +239,23 @@ body {
   color: #a6a6a5;
 }
 
-.cart-price {
-  padding: 0px;
-  margin: 17px 0px;
+.cart-content-cost {
+  width: 120px;
 
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.cart-content-price {
+  width: 60px;
+
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.cart-price {
   font-size: 15px;
   font-weight: bold;
 }
@@ -653,27 +684,36 @@ body {
   font-weight: bold;
 }
 
-.filters {
-  width: 880px;
-  margin-bottom: 39px;
+.filters-first-row,
+.filters-second-row {
+  display: flex;
+  width: 877px;
+  margin-bottom: 17px;
+  margin-right: 15px;
 
   border: none;
 }
 
-.filters-first-row {
-  margin-bottom: 17px;
+.filters-second-row {
+  margin-bottom: 39px;
 }
 
 .filter-title,
 .price-label {
   margin-left: 16px;
-  margin-bottom: 7px;
+  margin-bottom: 6px;
 
   font-size: 14px;
   line-height: 16px;
 }
 
+.filter-sort {
+  width: 195px;
+  border: none;
+}
+
 .filter-price {
+  width: 220px;
   border: none;
 }
 
@@ -689,12 +729,8 @@ body {
   border: none;
 }
 
-.filter-sort {
-  border: none;
-}
-
 .filters-fat {
-  width: 415px;
+  width: 417px;
 
   border: none;
 }
@@ -715,6 +751,10 @@ body {
 }
 
 .btn-filter {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 25px;
+
   color: #ffffff;
 
   border: 2px solid #ffffff;
