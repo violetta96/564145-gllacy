@@ -1,31 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="49" height="49" viewBox="0 0 49 49">
-  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
-<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
-   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-      <rdf:Description rdf:about=""/>
-   </rdf:RDF>
-</x:xmpmeta>
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                           
-<?xpacket end="w"?></metadata>
-<image id="Градусник" width="49" height="49" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAxCAQAAADZlYmXAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfiAwYTHSVfm5BXAAAEdUlEQVRYw8WYTUxcVRTHf7xhKoOAMUY+JAiSBkqoaT06CSWoDAsXzhh1SdJOPxaVurCJrmCFRmEjJhrTumrNlMSgC412tgWjaRrB46KQIkmxEwoI0i+YMoWBPhczHQb63rxhLPG81b33f87/nnvyzj3n5uEoUkgzrTRSRyVFuFgnyjQTjDHERV120s/LaNyNnyB+dtlCVgkTIqzxHCikgKN0UgVAhEGGGSfCInHclFDNHrz4qAZgil7O6r1tUYifL6gF5ggR0lHbjewlSJAyYJL3NJwlhRRxmoPADD2c0ZjTWYuHY3TxDNDPCY064ZEGGRdT1qRPih3BG1rF0idrYsq4NDhBm2RBTLkuLdmbT+m2yHUxZUGaMhyUNHEBD8MEdH77FCClnMdLjDa9ZEkhDfzCUwzyht61NPAWHewjziU+1d9sSB7nJ3zc4GW98hCFFDFCPcP4rAgkj1N0pIb3Oalf2pIM4uVPXnoQeCO1dpp6pglYe8BxOrjPJ+yjiXMYfC7N1hR6lwDT1HN6K7dfTFmzD7JMiiknU6OzYsr3GWLSImtiij/toKSAMWr5TD+wUSlnllVKdEVCoEHZzx/MaTmImbb/9Lj28T6TNOq9Bwd1lFpm6LbdVgEQ0xXgEIekmNtAGZmkmxlqOZqMhbjpBHp0iezElb7zjW9TRJboATrFnfDCTxVznMmSIFs5wxxV+BMUQSDknIusRMyNb/OKxgglbBtSiB8IPWIfSNr0S2E+zewiYp+uM4tmuNJ0VCJU02zQCgzugA8k7bbm0wgM52rD7r9IyjBHaDSoA8Z3yItxoC6fSiCSqw3NWF4QASoNioDFHfJiESjKxwXEc7XhEIs44DJYB9w75IUbWM8nyhOU8E9uNhxiUQJEDaYhWXDZi8fykJ523EE1MG0wAezJhJN8TgF30qbu8Dfwoxhklj3AhMEY4M0IPEgrSwRADgDwgt7iVZZo4ogDhRcYMxgCfBmB7wIf62Vp5yIAF6RdJ/gIOO5A4QOG8qSQW+ziebtEKIVEyaNM5+UvapKT1/Q5KWUOKLS/BGQvl1nlSUOXCZO4M6yllDyiOg8pAqgBnScKlGfwIQiEddkgkdeD4rEBRgGPuIGR1NwIiBtPctXaB0/iqkvcemGmKOOYNVQXmMVFG3CCmwDc5ATQhotZtf+fjlHGFGEwQOP0Al22lfi3QLe4dYTdtNPObh0RNx8C39n6UEwX0JvqnqRAroopfTbwcrktpgxIARv4ATHltthGQvrElKsJjWQCED/nWadVf7VUeJ0fcDPFV/wOvEgHVcR527orAmlhCBeBxPpG2XyOg0wj1mW/vEJoU5qJcFh/tiEoRamkXw8lxllW5iCP0Y6fGuAaYb7RFRuChyrzbfQX2YhVf5GWyPQKAWL4GJTSHAlKGcRHjMAGwSYK0Eu0cQMvmluvh+LlxuY2zAr4yDtW19aJ2YWKr3mW/RzgcMVKxejsmqN5T8U7DPAaBv28qTNb1/+f14Ok8k6/gSRpdvYlJ43oP75H/QunyKhnfkk4EwAAAABJRU5ErkJggg=="/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49 49" width="49" height="49">
+	<defs>
+		<image width="49" height="49" id="img1" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNS4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iNDlweCIgaGVpZ2h0PSI0OXB4IiB2aWV3Qm94PSIwIDAgNDkgNDkiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDQ5IDQ5IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxwYXRoIGZpbGw9IiMzMjMyMzIiIGQ9Ik0yNC41LDBDMTAuOTY5LDAsMCwxMC45NjksMCwyNC41QzAsMzguMDMxLDEwLjk2OSw0OSwyNC41LDQ5QzM4LjAzMSw0OSw0OSwzOC4wMzEsNDksMjQuNQ0KCQlDNDksMTAuOTY5LDM4LjAzMSwwLDI0LjUsMHogTTI0LjUsNDdDMTIuMDkzLDQ3LDIsMzYuOTA2LDIsMjQuNUMyLDEyLjA5MywxMi4wOTMsMiwyNC41LDJDMzYuOTA2LDIsNDcsMTIuMDkzLDQ3LDI0LjUNCgkJQzQ3LDM2LjkwNiwzNi45MDYsNDcsMjQuNSw0N3oiLz4NCgk8cGF0aCBmaWxsPSIjMzIzMjMyIiBkPSJNMjguOTM4LDEzLjEyNWMwLTIuNzc0LTIuMjU3LTUuMDMxLTUuMDMxLTUuMDMxcy01LjAzMSwyLjI1Ny01LjAzMSw1LjAzMXYxNC42NA0KCQljLTEuMjgxLDEuMzIyLTIsMy4wNjctMiw0LjkyM2MwLDMuOTI5LDMuMTk2LDcuMTI1LDcuMTI1LDcuMTI1czcuMTI1LTMuMTk2LDcuMTI1LTcuMTI1YzAtMS45NDItMC44MDItMy43OTEtMi4xODgtNS4xMjZWMTMuMTI1eg0KCQkgTTI5LjEyNSwzMi42ODhjMCwyLjgzLTIuMjk1LDUuMTI1LTUuMTI1LDUuMTI1Yy0yLjgzMSwwLTUuMTI1LTIuMjk1LTUuMTI1LTUuMTI1YzAtMS42NDcsMC43OTItMy4wOTgsMi00LjAzNVYxMy4xMjUNCgkJYzAtMS42NzQsMS4zNTctMy4wMzEsMy4wMzEtMy4wMzFjMS42NzQsMCwzLjAzMSwxLjM1NywzLjAzMSwzLjAzMXYxNS4zNzJDMjguMjU3LDI5LjQyNSwyOS4xMjUsMzAuOTUyLDI5LjEyNSwzMi42ODh6Ii8+DQoJPHBhdGggZmlsbD0iIzMyMzIzMiIgZD0iTTI1LDI5LjU1OVYxMy4xODhjMC0wLjU1Mi0wLjQ0Ny0xLTEtMWMtMC41NTIsMC0xLDAuNDQ4LTEsMXYxNi4zNzFjLTEuMTYzLDAuNDEzLTIsMS41MTItMiwyLjgxNg0KCQljMCwxLjY1NywxLjM0MywzLDMsM2MxLjY1NywwLDMtMS4zNDMsMy0zQzI3LDMxLjA3LDI2LjE2MywyOS45NzIsMjUsMjkuNTU5eiIvPg0KCTxyZWN0IHg9IjMxIiB5PSIxMiIgZmlsbD0iIzMyMzIzMiIgd2lkdGg9IjYiIGhlaWdodD0iMiIvPg0KCTxyZWN0IHg9IjMxIiB5PSIxNiIgZmlsbD0iIzMyMzIzMiIgd2lkdGg9IjYiIGhlaWdodD0iMiIvPg0KCTxyZWN0IHg9IjMxIiB5PSIyMCIgZmlsbD0iIzMyMzIzMiIgd2lkdGg9IjYiIGhlaWdodD0iMiIvPg0KCTxyZWN0IHg9IjMxIiB5PSIyNCIgZmlsbD0iIzMyMzIzMiIgd2lkdGg9IjYiIGhlaWdodD0iMiIvPg0KPC9nPg0KPC9zdmc+DQo="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Градусник" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
 </svg>
