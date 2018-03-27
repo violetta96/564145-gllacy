@@ -16,88 +16,90 @@
     <div class="site-container">
       <div class="container">
         <header class="main-header">
-          <a class="main-header-logo" href="#">
+          <div class="main-header-wrapper">
+            <a class="main-header-logo">
             <img src="img/logo.svg" width="154" height="64" alt="Логотип магазина «Глейси»">
           </a>
-          <div class="nav-wrapper">
-            <nav class="main-nav">
-              <ul class="site-nav">
-                <li class="site-nav-item">
-                  <a class="site-nav-link nav-catalog" href="catalog.html">
+            <div class="nav-wrapper">
+              <nav class="main-nav">
+                <ul class="site-nav">
+                  <li class="site-nav-item">
+                    <a class="site-nav-link nav-catalog" href="catalog.html">
                     <span class="site-nav-lable">Каталог</span>
                   </a>
-                  <ul class="site-subnav">
-                    <li class="site-subnav-item">
-                      <p class="site-subnav-new">Новинки</p>
-                    </li>
-                    <li class="site-subnav-item">
-                      <a class="site-subnav-link" href="catalog.html">Сливочное</a>
-                    </li>
-                    <li class="site-subnav-item">
-                      <a class="site-subnav-link" href="#">Щербеты</a>
-                    </li>
-                    <li class="site-subnav-item">
-                      <a class="site-subnav-link" href="#">Фруктовый лед</a>
-                    </li>
-                    <li class="site-subnav-item">
-                      <a class="site-subnav-link" href="#">Мелорин</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a class="site-nav-link nav-delvery" href="info.html">
+                    <ul class="site-subnav">
+                      <li class="site-subnav-item">
+                        <p class="site-subnav-new">Новинки</p>
+                      </li>
+                      <li class="site-subnav-item">
+                        <a class="site-subnav-link" href="catalog.html">Сливочное</a>
+                      </li>
+                      <li class="site-subnav-item">
+                        <a class="site-subnav-link" href="#">Щербеты</a>
+                      </li>
+                      <li class="site-subnav-item">
+                        <a class="site-subnav-link" href="#">Фруктовый лед</a>
+                      </li>
+                      <li class="site-subnav-item">
+                        <a class="site-subnav-link" href="#">Мелорин</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a class="site-nav-link nav-delvery" href="info.html">
                     <span class="site-nav-lable">Доставка и оплата</span>
                   </a>
-                </li>
-                <li>
-                  <a class="site-nav-link nav-about" href="about.html">
+                  </li>
+                  <li>
+                    <a class="site-nav-link nav-about" href="about.html">
                     <span class="site-nav-lable">О Компании</span>
                   </a>
-                </li>
-              </ul>
-            </nav>
+                  </li>
+                </ul>
+              </nav>
 
-            <div class="user-nav">
-              <div class="search">
-                <a class="user-nav-link search-nav-link" href="#">
+              <div class="user-nav">
+                <div class="search">
+                  <a class="user-nav-link search-nav-link" href="#">
                   <span class="visually-hidden">Поиск</span>
                   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" viewbox="0 0 17 17">
                     <path fill="#fff" d="M16.958 15.527L11.75 10.32A6.455 6.455 0 0 0 13 6.5 6.5 6.5 0 1 0 6.5 13a6.465 6.465 0 0 0 3.839-1.263l5.205 5.204 1.414-1.414zM6.5 11C4.019 11 2 8.981 2 6.5S4.019 2 6.5 2 11 4.019 11 6.5 8.981 11 6.5 11z"/>
                   </svg>
                 </a>
-                <div class="search-field">
-                  <h2 class="visually-hidden">Поиск</h2>
-                  <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
-                    <label for="search-field-area" class="visually-hidden">Что ищем?</label>
-                    <input class="search-area" id="search-field-area" type="search" name="search" value="" placeholder="Что ищем?" required="required">
-                  </form>
+                  <div class="search-field">
+                    <h2 class="visually-hidden">Поиск</h2>
+                    <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+                      <label for="search-field-area" class="visually-hidden">Что ищем?</label>
+                      <input class="search-area" id="search-field-area" type="search" name="search" value="" placeholder="Что ищем?" required="required">
+                    </form>
+                  </div>
                 </div>
-              </div>
-              <div class="login">
-                <a class="user-nav-link login-nav-link" href="#">Вход</a>
-                <div class="login-field">
-                  <h2 class="visually-hidden">Форма входа</h2>
-                  <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
-                    <p class="login-item">
-                      <label for="login" class="visually-hidden">Электронная почта</label>
-                      <input class="login-email" id="login" type="email" name="email" value="" placeholder="Электронная почта" required="required">
-                    </p>
-                    <p class="login-item">
-                      <label for="password" class="visually-hidden">Пароль</label>
-                      <input class="password-email" id="password" type="password" name="password" value="" placeholder="Пароль" required="required">
-                    </p>
-                    <div class="login-wrapper">
-                      <button class="btn btn-login" type="submit">Войти</button>
-                      <div class="login-links-box">
-                        <a class="login-form-links" href="#">Забыли пароль?</a>
-                        <a class="login-form-links" href="#">Новая регистрация</a>
+                <div class="login">
+                  <a class="user-nav-link login-nav-link" href="#">Вход</a>
+                  <div class="login-field">
+                    <h2 class="visually-hidden">Форма входа</h2>
+                    <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+                      <p class="login-item">
+                        <label for="login" class="visually-hidden">Электронная почта</label>
+                        <input class="login-email" id="login" type="email" name="email" value="" placeholder="Электронная почта" required="required">
+                      </p>
+                      <p class="login-item">
+                        <label for="password" class="visually-hidden">Пароль</label>
+                        <input class="password-email" id="password" type="password" name="password" value="" placeholder="Пароль" required="required">
+                      </p>
+                      <div class="login-wrapper">
+                        <button class="btn btn-login" type="submit">Войти</button>
+                        <div class="login-links-box">
+                          <a class="login-form-links" href="#">Забыли пароль?</a>
+                          <a class="login-form-links" href="#">Новая регистрация</a>
+                        </div>
                       </div>
-                    </div>
-                  </form>
+                    </form>
+                  </div>
                 </div>
-              </div>
-              <div class="cart">
-                <a class="user-nav-link cart-nav-link" href="#">Пусто</a>
+                <div class="cart">
+                  <a class="user-nav-link cart-nav-link" href="#">Пусто</a>
+                </div>
               </div>
             </div>
           </div>
@@ -248,8 +250,10 @@
 
       <section class="map-contacts">
         <h2 class="visually-hidden">Как нас найти</h2>
-        <img class="map-img" src="img/map.jpg" width="1200" height="430" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
-
+        <div class="map">
+          <img src="img/map.jpg" width="1200" height="430" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
+        </div>
+        <iframe class="map-iframe" src="https://yandex.by/map-widget/v1/-/CBUHBOR1hB" width="1200" height="430" frameborder="0"></iframe>
         <div class="contacts">
           <p class="address-info">
             Адрес главного офиса<br> и офлайн магазина:<br>
@@ -272,23 +276,23 @@
               <ul class="footer-social-list">
                 <li class="footer-social-item">
                   <a class="social-button social-twitter" href="#">
-                            <span class="visually-hidden">Твиттер</span>
-                          </a>
+                    <span class="visually-hidden">Твиттер</span>
+                  </a>
                 </li>
                 <li class="footer-social-item">
                   <a class="social-button social-instagram" href="#">
-                            <span class="visually-hidden">Инстаграм</span>
-                          </a>
+                    <span class="visually-hidden">Инстаграм</span>
+                  </a>
                 </li>
                 <li class="footer-social-item">
                   <a class="social-button social-facebook" href="#">
-                            <span class="visually-hidden">Фейсбук</span>
-                          </a>
+                    <span class="visually-hidden">Фейсбук</span>
+                  </a>
                 </li>
                 <li class="footer-social-item">
                   <a class="social-button social-vk" href="#">
-                            <span class="visually-hidden">Вконтакте</span>
-                          </a>
+                    <span class="visually-hidden">Вконтакте</span>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -297,8 +301,8 @@
                 <ul class="footer-doc-left">
                   <li>
                     <a class="footer-doc-link" href="#">
-                              <b class="link-for-suppliers">Для поставщиков</b>
-                            </a>
+                      <b class="link-for-suppliers">Для поставщиков</b>
+                    </a>
                   </li>
                   <li>
                     <a class="footer-doc-link" href="#">О производстве</a>
@@ -306,8 +310,7 @@
                 </ul>
                 <ul class="footer-doc-right">
                   <li>
-                    <a class="footer-doc-link" href="#">Наши документы
-                            </a>
+                    <a class="footer-doc-link" href="#">Наши документы</a>
                   </li>
                   <li>
                     <a class="footer-doc-link" href="#">Экологические стандарты</a>
