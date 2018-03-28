@@ -680,8 +680,6 @@ img {
   line-height: 16px;
 
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-
-
 }
 
 .breadcrumbs-item::after {
@@ -1553,6 +1551,24 @@ img {
   border-bottom: 1px solid rgba(246, 181, 165, 0.3);
 }
 
+@keyframes bounce {
+  0% {
+    transform: translateY(-2000px);
+  }
+
+  70% {
+    transform: translateY(30px);
+  }
+
+  90% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .modal-overlay {
   position: fixed;
   z-index: 9;
@@ -1566,6 +1582,10 @@ img {
   background-color: #000000;
 }
 
+.modal-overlay-show {
+  display: block;
+}
+
 .modal {
   position: fixed;
   z-index: 10;
@@ -1573,6 +1593,12 @@ img {
   left: 50%;
   display: none;
   margin-left: -221px;
+}
+
+.modal-show {
+  display: block;
+
+  animation: bounce 0.6s;
 }
 
 .modal-feedback {
@@ -1662,6 +1688,10 @@ img {
 
   border: none;
   background: url(../img/x-big.svg) no-repeat 0 0;
+}
+
+.modal-close:focus {
+  outline: none;
 }
 
 .page-title {
@@ -1869,14 +1899,10 @@ img {
   display: inline-block;
 }
 
-.filter-option-fat {
-  padding-right: 14px;
-  padding-left: 33px;
-}
-
 .fat-label {
   position: relative;
-  display: block;
+  padding-right: 14px;
+  padding-left: 33px;
 
   cursor: pointer;
   user-select: none;
@@ -1884,56 +1910,74 @@ img {
 
 .fat-label::before {
   position: absolute;
-  top: 0px;
-  left: -30px;
-  width: 16px;
-  height: 16px;
+  top: -1px;
+  left: 0px;
+  width: 22px;
+  height: 22px;
   content: "";
 
-  border: 3px solid rgba(255,255,255, 0.7);
-  border-radius: 50%;
+  background: url(../img/radio-off.svg) no-repeat 0 center;
+  opacity: 0.7;
 }
 
-.filter-radio:hover .fat-label::before {
+.fat-label:hover::before {
   position: absolute;
-  top: 0px;
-  left: -30px;
-  width: 16px;
-  height: 16px;
+  top: -1px;
+  left: 0px;
+  width: 22px;
+  height: 22px;
   content: "";
 
-  border: 3px solid rgba(255,255,255, 1);
-  border-radius: 50%;
+  background: url(../img/radio-off.svg) no-repeat 0 center;
+  opacity: 1;
 }
 
-.filter-radio:disabled .fat-label::before {
+.fat-label:disabled::before {
   position: absolute;
-  top: 0px;
-  left: -30px;
-  width: 16px;
-  height: 16px;
+  top: -1px;
+  left: 0px;
+  width: 22px;
+  height: 22px;
   content: "";
 
-  border: 3px solid rgba(255,255,255, 1);
-  border-radius: 50%;
+  background: url(../img/radio-off.svg) no-repeat 0 center;
+  opacity: 0.4;
 }
 
-.filter-radio:checked + .fat-label::after {
+.filter-radio:checked ~ .fat-label::before {
   position: absolute;
-  top: -6px;
-  left: -28px;
-  width: 8px;
-  height: 8px;
+  top: -1px;
+  left: 0px;
+  width: 22px;
+  height: 22px;
   content: "";
 
-  border-radius: 50%;
-  background-color: rgba(255,255,255,.7);
+  background: url(../img/radio-on.svg) no-repeat 0 center;
+  opacity: 0.7;
 }
 
-.fat-label:focus {
-  border-color: #663d15;
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+.filter-radio:checked ~ .fat-label:hover::before {
+  position: absolute;
+  top: -1px;
+  left: 0px;
+  width: 22px;
+  height: 22px;
+  content: "";
+
+  background: url(../img/radio-on.svg) no-repeat 0 center;
+  opacity: 1;
+}
+
+.filter-radio:checked ~ .fat-label:disabled::before {
+  position: absolute;
+  top: -1px;
+  left: 0px;
+  width: 22px;
+  height: 22px;
+  content: "";
+
+  background: url(../img/radio-on.svg) no-repeat 0 center;
+  opacity: 0.4;
 }
 
 .filter-fillers {
@@ -1953,14 +1997,10 @@ img {
   border-radius: 30px;
 }
 
-.filter-option-fillers {
-  padding-right: 14px;
-  padding-left: 33px;
-}
-
 .filler-label {
   position: relative;
-  display: block;
+  padding-right: 19px;
+  padding-left: 31px;
 
   cursor: pointer;
   user-select: none;
@@ -1969,60 +2009,79 @@ img {
 .filler-label::before {
   position: absolute;
   top: 0px;
-  left: -30px;
-  width: 16px;
-  height: 16px;
-  content: "";
-
-  border: 2px solid rgba(255,255,255, 0.7);
-  border-radius: 3px;
-}
-
-.filter-checkbox:hover .filler-label::before {
-  position: absolute;
-  top: 0px;
-  left: -30px;
-  width: 16px;
-  height: 16px;
-  content: "";
-
-  border: 2px solid rgba(255,255,255, 1);
-  border-radius: 3px;
-}
-
-.filter-checkbox:disabled .filler-label::before {
-  position: absolute;
-  top: 0px;
-  left: -30px;
-  width: 16px;
-  height: 16px;
-  content: "";
-
-  border: 2px solid rgba(255,255,255, 1);
-  border-radius: 3px;
-}
-
-.filter-checkbox:checked + .filler-label::after {
-  position: absolute;
-  top: -6px;
-  left: -28px;
-  width: 24px;
+  left: 0px;
+  width: 20px;
   height: 20px;
   content: "";
 
-  background: url(../img/checkbox-on.svg) no-repeat 0 0;
+  background: url(../img/checkbox-off.svg) no-repeat 0 center;
+  opacity: 0.7;
 }
 
-.filler-label:focus {
-  border-color: #663d15;
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+.filler-label:hover::before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  content: "";
+
+  background: url(../img/checkbox-off.svg) no-repeat 0 center;
+  opacity: 1;
+}
+
+.filler-label:disabled::before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  content: "";
+
+  background: url(../img/checkbox-off.svg) no-repeat 0 center;
+  opacity: 0.4;
+}
+
+.filter-checkbox:checked ~ .filler-label::before {
+  position: absolute;
+  top: -1px;
+  left: 0px;
+  width: 22px;
+  height: 22px;
+  content: "";
+
+  background: url(../img/checkbox-on.svg) no-repeat 0 center;
+  opacity: 0.7;
+}
+
+.filter-checkbox:checked ~ .filler-label:hover::before {
+  position: absolute;
+  top: -1px;
+  left: 0px;
+  width: 22px;
+  height: 22px;
+  content: "";
+
+  background: url(../img/checkbox-on.svg) no-repeat 0 center;
+  opacity: 1;
+}
+
+.filter-checkbox:checked ~ .filler-label:disabled::before {
+  position: absolute;
+  top: -1px;
+  left: 0px;
+  width: 22px;
+  height: 22px;
+  content: "";
+
+  background: url(../img/checkbox-on.svg) no-repeat 0 center;
+  opacity: 0.4;
 }
 
 .btn-filter {
   display: inline-block;
   margin: 0px;
-  margin-top: 25px;
+  margin-top: 23px;
   padding: 0px;
   padding: 7px 27px;
 
