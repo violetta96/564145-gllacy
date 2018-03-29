@@ -163,7 +163,7 @@ img {
   z-index: 10;
 }
 
-.site-subnav:last-child .site-subnav-link {
+.subnav-link-last {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
@@ -183,7 +183,7 @@ img {
 }
 
 .site-subnav-new {
-  margin: 0px;
+  margin: 0px 5px;
   padding: 10px 20px;
 
   border-bottom: 1px solid #d1d0ce;
@@ -316,6 +316,7 @@ img {
   border: 1px solid #d1d0ce;
   border-radius: 6px;
 
+  font-family: inherit;
   font-size: 14px;
   line-height: 24px;
 }
@@ -332,11 +333,6 @@ img {
   border: 2px solid #8fbdec;
   border-radius: 6px;
   outline: none;
-}
-
-.search-area:valid,
-.log-email:valid {
-  font-weight: bold;
 }
 
 .login {
@@ -435,6 +431,7 @@ img {
   border: 1px solid #d1d0ce;
   border-radius: 6px;
 
+  font-family: inherit;
   font-size: 14px;
   line-height: 24px;
 }
@@ -818,6 +815,7 @@ img {
 .gift-banner {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .gift-banner-left,
@@ -1085,6 +1083,7 @@ img {
 .blog-subscription-wrapper {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-bottom: 40px;
 }
 
@@ -1151,6 +1150,7 @@ img {
   border: 1px solid #d1d0ce;
   border-radius: 6px;
 
+  font-weight: inherit;
   line-height: 24px;
 }
 
@@ -1291,6 +1291,7 @@ img {
 
 .footer-social-list {
   display: flex;
+  flex-wrap: wrap;
   align-content: center;
   justify-content: space-between;
   margin: 0px;
@@ -1637,7 +1638,12 @@ img {
   border: 1px solid #d1d0ce;
   border-radius: 6px;
 
+  font-family: inherit;
   line-height: 24px;
+}
+
+.feedback-text:valid {
+  font-weight: bold;
 }
 
 .feedback-text:hover,
@@ -1668,6 +1674,7 @@ img {
   border: 1px solid #d1d0ce;
   border-radius: 6px;
 
+  font-family: inherit;
   line-height: 24px;
 }
 
@@ -1719,6 +1726,7 @@ img {
 .filters-second-row {
   display: flex;
   align-content: flex-start;
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 857px;
   margin-bottom: 15px;
@@ -2144,7 +2152,9 @@ img {
 .pagination-list {
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   width: 145px;
+  margin: 0px;
   margin: 0px;
   padding: 0px 25px;
 }
