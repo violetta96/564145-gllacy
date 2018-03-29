@@ -853,11 +853,13 @@ img {
 }
 
 .gift-banner-left {
+  background-color: #ce5070;
   background-image: url(../img/banner-left.jpg);
   background-repeat: no-repeat;
 }
 
 .gift-banner-right {
+  background-color: #7c5649;
   background-image: url(../img/banner-right.jpg);
   background-repeat: no-repeat;
 }
@@ -991,7 +993,7 @@ img {
   padding: 24px 20px;
 
   color: #323232;
-
+  background-color: #e6d5ad;
   border-radius: 15px;
   background-image: url(../img/waffle-banner.jpg);
   background-repeat: repeat;
@@ -1092,6 +1094,7 @@ img {
 
   color: #323232;
 
+  background-color: #ffffff;
   border-radius: 15px;
   background-image: url(../img/blog-banner.jpg);
   background-repeat: no-repeat;
@@ -1127,6 +1130,7 @@ img {
 
   color: #323232;
 
+  background-color: #f8f7f4;
   border-radius: 15px;
   background-image: url(../img/subscription-banner.jpg);
   background-repeat: no-repeat;
@@ -1271,15 +1275,11 @@ img {
   border: none;
 }
 
-.main-page-footer .footer-wrapper {
-  padding-top: 20px;
-}
-
 .footer-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 32px;
+  padding-top: 27px;
   padding-bottom: 28px;
 }
 
@@ -1521,7 +1521,6 @@ img {
 }
 
 .footer-copyright-info {
-  position: relative;
   margin: 0px;
   padding: 0px;
   padding-top: 30px;
@@ -1530,7 +1529,12 @@ img {
   line-height: 18px;
 }
 
-.footer-copyright-info::before {
+.footer-logo-link {
+  position: relative;
+  display: block;
+}
+
+.footer-logo-link::before {
   position: absolute;
   top: -10px;
   left: 0px;
