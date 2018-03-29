@@ -150,8 +150,9 @@ img {
   left: -7px;
   display: none;
   width: 143px;
-  margin: 0px;;
+  margin: 0px;
   padding: 0px;
+  height: 171px;
 
   list-style: none;
 
@@ -160,6 +161,11 @@ img {
   box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.3);
 
   z-index: 10;
+}
+
+.site-subnav:last-child .site-subnav-link {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .site-subnav-link,
@@ -183,6 +189,8 @@ img {
   border-bottom: 1px solid #d1d0ce;
 
   font-weight: bold;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .site-subnav-link,
@@ -192,6 +200,7 @@ img {
 
 .site-nav-item:hover > .site-nav-link,
 .site-nav-link:focus,
+.site-nav-link:hover,
 .search:hover > .user-nav-link,
 .login:hover > .user-nav-link,
 .cart:hover > .user-nav-link,
@@ -217,9 +226,6 @@ img {
 }
 
 .site-nav-lable {
-  margin: 0px;
-  padding: 0px;
-
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
@@ -635,8 +641,6 @@ img {
 
 .main-info-wrapper {
   display: flex;
-  margin: 0px;
-  padding: 0px;
 }
 
 .no-breadcrumbs {
@@ -821,7 +825,6 @@ img {
   display: flex;
   flex-direction: column;
   width: 520px;
-  margin: 0;
   margin-bottom: 40px;
   padding: 17px 20px;
   padding-bottom: 23px;
@@ -933,7 +936,6 @@ img {
   z-index: 3;
   top: 220px;
   margin: 0px;
-  padding: 0px;
 
   font-size: 30px;
   font-weight: bold;
@@ -1104,10 +1106,8 @@ img {
 
 .blog-info-link {
   display: block;
-  margin: 0px;
   margin-right: 235px;
   margin-bottom: 51px;
-  padding: 0px;
 
   color: #323232;
   font-size: 24px;
@@ -1177,17 +1177,14 @@ img {
 
 .map-contacts {
   position: relative;
-  width: 100%;
   margin: 0px auto;
 }
 
 .contacts {
   position: absolute;
   top: 63px;
-  right: 28px;
-  width: 252px;
+  right: 27px;
   width: 255px;
-  margin: 0px;
   padding: 30px 24px;
 
   border-radius: 15px;
@@ -1197,7 +1194,7 @@ img {
   font-size: 14px;
   line-height: 20px;
 
-  z-index: 3;
+  z-index: 4;
 }
 
 .contacts-info,
@@ -1223,18 +1220,22 @@ img {
   line-height: 24px;
 }
 
-.map-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  width: 100%;
+.map {
+  position: relative;
+  width: 1200px;
   height: 430px;
+  margin: 0px auto;
+}
+
+.map-img {
+  z-index: 1;
 }
 
 .map-iframe {
-  position: relative;
-  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
   width: 100%;
 
   border: none;
@@ -1243,7 +1244,7 @@ img {
 .map-contacts::before {
   position: absolute;
   top: 140px;
-  left: 286px;
+  left: 303px;
   width: 80px;
   height: 140px;
   content: "";
@@ -1652,9 +1653,7 @@ img {
 }
 
 .feedback-comment-item {
-  margin: 0px;
   margin-bottom: 25px;
-  padding: 0px;
 }
 
 .comment-area {
@@ -1678,6 +1677,10 @@ img {
 
   font-size: 18px;
   line-height: 24px;
+}
+
+.feedback-button:active {
+  outline: none;
 }
 
 .modal-close {
@@ -1766,9 +1769,14 @@ img {
   border: transparent;
   background-color: transparent;
 
+
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+}
+
+.filter-sorting::-ms-expand {
+  display: none;
 }
 
 .filter-sorting:active,
@@ -1812,13 +1820,16 @@ img {
 
 .price-controls {
   width: 25px;
-  margin: 0px;
   color: #ffffff;
   border: none;
   background-color: inherit;
 
   font-size: 14px;
   line-height: 16px;
+}
+
+.price-controls {
+  -moz-appearance:textfield;
 }
 
 .price-controls::-webkit-inner-spin-button,
@@ -2084,9 +2095,7 @@ img {
 
 .btn-filter {
   display: inline-block;
-  margin: 0px;
   margin-top: 23px;
-  padding: 0px;
   padding: 7px 27px;
 
   cursor: pointer;

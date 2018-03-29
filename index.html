@@ -18,8 +18,8 @@
         <header class="main-header">
           <div class="main-header-wrapper">
             <a class="main-header-logo">
-            <img src="img/logo.svg" width="154" height="64" alt="Логотип магазина «Глейси»">
-          </a>
+              <img src="img/logo.svg" width="154" height="64" alt="Логотип магазина «Глейси»">
+            </a>
             <div class="nav-wrapper">
               <nav class="main-nav">
                 <ul class="site-nav">
@@ -47,13 +47,13 @@
                   </li>
                   <li>
                     <a class="site-nav-link nav-delvery" href="info.html">
-                    <span class="site-nav-lable">Доставка и оплата</span>
-                  </a>
+                      <span class="site-nav-lable">Доставка и оплата</span>
+                    </a>
                   </li>
                   <li>
                     <a class="site-nav-link nav-about" href="about.html">
-                    <span class="site-nav-lable">О Компании</span>
-                  </a>
+                      <span class="site-nav-lable">О Компании</span>
+                    </a>
                   </li>
                 </ul>
               </nav>
@@ -61,11 +61,11 @@
               <div class="user-nav">
                 <div class="search">
                   <a class="user-nav-link search-nav-link" href="#">
-                  <span class="visually-hidden">Поиск</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" viewbox="0 0 17 17">
-                    <path fill="#fff" d="M16.958 15.527L11.75 10.32A6.455 6.455 0 0 0 13 6.5 6.5 6.5 0 1 0 6.5 13a6.465 6.465 0 0 0 3.839-1.263l5.205 5.204 1.414-1.414zM6.5 11C4.019 11 2 8.981 2 6.5S4.019 2 6.5 2 11 4.019 11 6.5 8.981 11 6.5 11z"/>
-                  </svg>
-                </a>
+                    <span class="visually-hidden">Поиск</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" viewbox="0 0 17 17">
+                      <path fill="#fff" d="M16.958 15.527L11.75 10.32A6.455 6.455 0 0 0 13 6.5 6.5 6.5 0 1 0 6.5 13a6.465 6.465 0 0 0 3.839-1.263l5.205 5.204 1.414-1.414zM6.5 11C4.019 11 2 8.981 2 6.5S4.019 2 6.5 2 11 4.019 11 6.5 8.981 11 6.5 11z"/>
+                    </svg>
+                  </a>
                   <div class="search-field">
                     <h2 class="visually-hidden">Поиск</h2>
                     <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
@@ -252,20 +252,20 @@
         <h2 class="visually-hidden">Как нас найти</h2>
         <div class="map">
           <img class="map-img" src="img/map.jpg" width="1200" height="430" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
+          <div class="contacts">
+            <p class="address-info">
+              Адрес главного офиса<br> и офлайн магазина:<br>
+              <b class="contacts-info-important">ул. Большая Конюшенная<br>
+                        19/8, Санкт-Петербург</b>
+            </p>
+            <p class="contacts-info">
+              Для заказов по телефону:<br>
+              <b class="contacts-info-important">8 812 450-25-25</b><br> (с 10 до 20 ежедневно)
+            </p>
+            <a class="btn contacts-btn" href="#">Форма обратной связи</a>
+          </div>
         </div>
         <iframe class="map-iframe" src="https://yandex.by/map-widget/v1/-/CBUHBOR1hB" width="1200" height="430" frameborder="0"></iframe>
-        <div class="contacts">
-          <p class="address-info">
-            Адрес главного офиса<br> и офлайн магазина:<br>
-            <b class="contacts-info-important">ул. Большая Конюшенная<br>
-                      19/8, Санкт-Петербург</b>
-          </p>
-          <p class="contacts-info">
-            Для заказов по телефону:<br>
-            <b class="contacts-info-important">8 812 450-25-25</b><br> (с 10 до 20 ежедневно)
-          </p>
-          <a class="btn contacts-btn" href="#">Форма обратной связи</a>
-        </div>
       </section>
 
       <div class="container">
@@ -328,6 +328,7 @@
       </div>
     </div>
 
+
     <section class="modal">
       <div class="modal-feedback">
         <h2 class="modal-feedback-title">Мы обязательно вам ответим!</h2>
@@ -352,23 +353,6 @@
       </div>
     </section>
     <div class="modal-overlay"></div>
-    <script>
-      var link = document.querySelector(".contacts-btn");
-      var popup = document.querySelector(".modal");
-      var overlay = document.querySelector(".modal-overlay");
-      var close = popup.querySelector(".modal-close");
-
-      link.addEventListener("click", function(evt) {
-        evt.preventDefault();
-        popup.classList.add("modal-show");
-        overlay.classList.add("modal-overlay-show");
-      });
-
-      close.addEventListener("click", function(evt) {
-        evt.preventDefault();
-        popup.classList.remove("modal-show");
-        overlay.classList.remove("modal-overlay-show");
-      });
-    </script>
+    <script src="js/script.js"></script>
   </body>
 </<html>
