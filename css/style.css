@@ -2120,7 +2120,12 @@ img {
   background-color: rgba(255,255,255,0.2);
 }
 
-.btn-filter:hover {
+.btn-filter:focus {
+  outline: none;
+}
+
+.btn-filter:hover,
+.btn-filter:focus {
   color: #323232;
 
   border: 2px solid #ffffff;
