@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  min-width: 1200px;
 
   background-color: #9aaea3;
 
@@ -49,7 +50,7 @@ img {
 
   background-image: url(../img/slider1.png);
   background-repeat: no-repeat;
-  background-position: 112px 0px;
+  background-position: top center;
 }
 
 .site-container::before,
@@ -61,12 +62,12 @@ img {
 
 .site-container::before {
   background-image: url(../img/slider2.png);
-  background-position: 112px 0px;
+  background-position: top center;
 }
 
 .site-container::after {
   background-image: url(../img/slider3.png);
-  background-position: 112px 0px;
+  background-position: top center;
 }
 
 .btn {
@@ -784,12 +785,12 @@ img {
 }
 
 .main-info-tel{
-  margin: 0px;
-  padding: 0px;
-
+  color: #ffffff;
   font-size: 22px;
   font-weight: bold;
   line-height: 24px;
+
+  text-decoration: none;
 }
 
 .slide {
@@ -857,19 +858,19 @@ img {
 #product-1:checked ~ .site-container {
   background-color: #849d8f;
   background-image: url(../img/slider1.png);
-  background-position: 112px 0px;
+  background-position: top center;
 }
 
 #product-2:checked ~ .site-container {
   background-color: #8996a6;
   background-image: url(../img/slider2.png);
-  background-position: 112px 0px;
+  background-position: top center;
 }
 
 #product-3:checked ~ .site-container {
   background-color: #9d8b84;
   background-image: url(../img/slider3.png);
-  background-position: 112px 0px;
+  background-position: top center;
 }
 
 #product-1:checked ~ .site-container #slide1,
@@ -1314,14 +1315,22 @@ img {
 .address-info-important {
   margin: 0px;
   padding: 0px;
+}
+
+.address-info-important {
+  margin-bottom: 21px;
 
   font-size: 18px;
   font-weight: bold;
   line-height: 24px;
 }
 
-.address-info-important {
-  margin-bottom: 21px;
+.contacts-info-important {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #000000;
+  text-decoration: none;
 }
 
 .contacts-btn {
